@@ -2,23 +2,89 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="js/jquery-3.4.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>HTML HELP</title>
+    <!-- Styles  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- scripts  -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Calculator</title>
 </head>
 
 <body>
-  <div class="container">
-    <h1 id="head">HTML HELP</h1>
-      <P>This is a very special page. If you click somewhere, it will tell you what type of html element you clicked on.</P>
-      <p>Look at this cute walrus!</p>
-      <img src="img/santa-walrus.jpg">
-  </div>
+    <div class="container">
+        <h1>Cool Calculator</h1>
 
+        <!-- add section  -->
+        <h2 class="text-center">Add</h2>
+        <form id="add">
+            <div class="form-group">
+                <label for="add1">1st number:</label>
+                <input type="text" id="add1" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="add2">2nd number:</label>
+                <input type="text" id="add2" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-info">Add!!!</button>
+        </form>
+        <div id="add-output">
+        </div>
+        <hr>
+
+        <!-- subtract section  -->
+        <h2 class="text-center" >Subtract</h2>
+        <form id="subtract">
+            <div class="form-group">
+                <label for="sub1">1st number:</label>
+                <input type="text" id="add1" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="sub2">2nd number:</label>
+                <input type="text" id="sub2" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-danger">Subtract!!!</button>
+        </form>
+        <div id="sub-output">
+        </div>
+
+        <hr>
+        <!-- to multipy section  -->
+        <h2 class="text-center" >Multipy</h2>
+        <form id="add">
+            <div class="form-group">
+                <label for="add1">1st number:</label>
+                <input type="text" id="add1" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="add2">2nd number:</label>
+                <input type="text" id="add2" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-info">Add!!!</button>
+        </form>
+        <div id="output">
+        </div>
+
+        <hr>
+        <!-- to divide section  -->
+        <h2 class="text-center">Divide</h2>
+        <form id="add">
+            <div class="form-group">
+                <label for="add1">1st number:</label>
+                <input type="text" id="add1" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="add2">2nd number:</label>
+                <input type="text" id="add2" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-info">Add!!!</button>
+        </form>
+        <div id="output">
+        </div>
+
+    </div>
 </body>
 
 </html>
